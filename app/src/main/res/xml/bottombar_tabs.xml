@@ -1,0 +1,23 @@
+<tabs>
+    <tab
+        id="@+id/tab_events"
+        icon="@drawable/today48"
+        title="Favorites" />
+    <tab
+        id="@+id/tab_nearme"
+        icon="@drawable/nearme"
+        title="Near Me" />
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/home"
+        title="Home" />
+    <tab
+        id="@+id/tab_massage"
+        icon="@drawable/chat"
+        barColorWhenSelected="#ff0"
+        title="Maps" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/user"
+        title="Profile" />
+</tabs>

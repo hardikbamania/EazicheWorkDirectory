@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">EaziChe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="categories">
+        <item>Grocery</item>
+        <item>SuperShop</item>
+        <item>Resturant</item>
+        <item>Hotels</item>
+        <item>Travels</item>
+
+        <item>Grocery</item>
+        <item>SuperShop</item>
+        <item>Resturant</item>
+        <item>Hotels</item>
+        <item>Travels</item>
+
+        <item>Grocery</item>
+        <item>SuperShop</item>
+        <item>Resturant</item>
+        <item>Hotels</item>
+        <item>Travels</item>
+
+        <item>Grocery</item>
+        <item>SuperShop</item>
+        <item>Resturant</item>
+        <item>Hotels</item>
+        <item>Travels</item>
+
+        <item>Grocery</item>
+        <item>SuperShop</item>
+        <item>Resturant</item>
+        <item>Hotels</item>
+        <item>Travels</item>
+    </string-array>
+    <array name="img">
+        <item>@drawable/selector_grocery</item>
+        <item>@drawable/selector_shop</item>
+        <item>@drawable/selector_resturant</item>
+        <item>@drawable/selector_hotel</item>
+        <item>@drawable/selector_travel</item>
+        <item>@drawable/selector_foodie</item>
+        <item>@drawable/selector_cloths</item>
+        <item>@drawable/selector_gift</item>
+        <item>@drawable/selector_light</item>
+        <item>@drawable/selector_doctor</item>
+        <item>@drawable/selector_handy</item>
+        <item>@drawable/selector_handy</item>
+        <item>@drawable/selector_car</item>
+        <item>@drawable/selector_auto</item>
+        <item>@drawable/selector_events</item>
+        <item>@drawable/selector_saloon</item>
+        <item>@drawable/selector_rent</item>
+        <item>@drawable/selector_education</item>
+        <item>@drawable/selector_computer</item>
+        <item>@drawable/selector_fitness</item>
+        <item>@drawable/selector_pet</item>
+        <item>@drawable/selector_taxi</item>
+        <item>@drawable/selector_pencil</item>
+        <item>@drawable/king</item>
+    </array>
+    <string-array name="title">
+        <item>Grocery</item>
+        <item>Super Shops</item>
+        <item>Resturants</item>
+        <item>Hotels</item>
+        <item>Travels</item>
+        <item>Foodies</item>
+        <item>Clothing</item>
+        <item>Gifts</item>
+        <item>Home Acsories</item>
+        <item>Doctors</item>
+        <item>HandyMan</item>
+        <item>Courier</item>
+        <item>Vehicles</item>
+        <item>Auto-Mobile</item>
+        <item>Events</item>
+        <item>Saloon &amp; Spa</item>
+        <item>Rentals</item>
+        <item>Educations</item>
+        <item>Electronics</item>
+        <item>Fitness</item>
+        <item>Pets</item>
+        <item>Taxis</item>
+        <item>Stationary</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="sub_categories">Sub Categories</string>
+
+    <!--<string name="url">http://192.168.56.1/fanster/images/</string>
+    <string name="company_names_url">http://192.168.56.1/fanster/android/company_names.php</string>
+    <string name="company_details_url">http://192.168.56.1/fanster/android/company_names_details.php</string>
+    <string name="sub_category_url">http://192.168.56.1/fanster/android/sub_category.php</string>
+-->
+    <string name="url">http://eaziche.tk/images/</string>
+    <string name="company_names_url">http://eaziche.tk/android/company_names.php</string>
+    <string name="company_details_url">http://eaziche.tk/android/company_names_details.php</string>
+    <string name="sub_category_url">http://eaziche.tk/android/sub_category.php</string>
+    <string name="rates_url">http://eaziche.tk/android/profile_rates.php</string>
+    <string name="also_listed_in_url">http://eaziche.tk/android/also_listed_in.php</string>
+    <string name="our_people_url">http://eaziche.tk/android/our_people.php</string>
+    <string name="profile_images_url">http://eaziche.tk/android/profile_images.php</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="views">VIEWS</string>
+    <string name="our_people">OUR PEOPLE</string>
+    <string name="also_listed_in">ALSO LISTED IN</string>
+    <string name="our_services">OUR SERVICES</string>
+    <string name="_2k">20K</string>
+    <string name="textforShortDesc">there is a short decs here with 15-20 words</string>
+    <string name="icon">ICON</string>
+    <string name="hardik">#hardik</string>
+    <string name="hardik_bamaniya">Hardik Bamaniya</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="_12_120">12,120</string>
+    <string name="follow">FOLLOW</string>
+    <string name="_2_11_120">2,11,120</string>
+    <string name="title_activity_blank">Blank</string>
+</resources>

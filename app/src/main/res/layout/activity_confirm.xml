@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/activity_maps" android:id="@+id/amMap"
+        android:layout_height="match_parent" android:layout_width="match_parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etConfirm"
+        android:hint="Verification Code"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/bConfirm"
+        android:padding="6dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_above="@+id/etConfirm"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
+    </RelativeLayout>
+</FrameLayout>

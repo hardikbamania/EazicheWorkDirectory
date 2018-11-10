@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Layout For Long and Short Describtion  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvShortDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/textforShortDesc"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tvReadMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center|bottom"
+            android:layout_marginTop="10dp"
+            android:text="READ MORE"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <!-- Layout for dissplaying Address anfd Contact no -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address :" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Address of A shopCompany will be displayed here"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvContactNo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="+91 5215487542"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvContactNo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="+91 5215487542"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WEBSITE" />
+
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Address of A shopCompany will be displayed here"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+<!--
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+-->
+    <!-- For Displayed Buttons -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingBottom="4dp">
+
+        <Button
+            android:id="@+id/bCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/bMyfav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/bLike"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <!-- Rating bar -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvRates"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="4.5"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="25sp" />
+
+        <android.support.v7.widget.AppCompatRatingBar
+            style="@style/AppTheme.starRatingBar"
+            android:paddingTop="4dp"
+            android:paddingRight="4dp"
+            android:isIndicator="true"
+            android:id="@+id/ratingBar" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tvNoOfRates"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="@string/_2k"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <!-- Service detail high lights will be here -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/our_services"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvOurServiceDetails"
+            android:layout_width="match_parent"
+            android:text="No Other Services Available !!!"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+<!--   the people wworking here willl be listed here          -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/our_people"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPeoples"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+<!--   The Organsation or service other listing will be displayed here -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/also_listed_in"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvAlsoListedIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>
